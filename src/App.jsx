@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import VideoPlayer from '../assets/components/VideoPlayer'
+import FeedVideos from '../assets/components/FeedVideos/index.jsx'
 
 function App() {
   return (
     <div className="App">
       <main>
-        <VideoPlayer />
+        <FeedVideos />
       </main>
     </div>
   )
