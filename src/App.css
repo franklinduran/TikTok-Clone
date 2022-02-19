@@ -12,15 +12,10 @@ main{
   display: block;
   height: auto;
   width: 100vw;
-  max-width: 372px;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 
 html {
   box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
