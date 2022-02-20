@@ -4,7 +4,7 @@ import { Comment } from '../Icons/Comment'
 import { Share } from '../Icons/Share'
 import styles from './styles.module.css'
 
-function VideoPlayerActions({likes=876, comments=567, shares=389, hearted=false}) {
+function VideoPlayerActions({username, avatar, likes=876, comments=567, shares=389, hearted=false}) {
 
   const handleLike = () => {
     alert("L")
@@ -20,6 +20,11 @@ function VideoPlayerActions({likes=876, comments=567, shares=389, hearted=false}
 
   return (
       <aside className={styles.actions}>
+
+        <div className={styles.user}>
+          <img alt={username} src={avatar}/>
+          <img src="https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/test-2e6dd40439e72f09a8193e27cb3e0c51.svg" width="24" class="jsx-1142506888"></img>
+        </div>
 
         <button onClick={handleLike} className={styles.action}>
             <Heart />
