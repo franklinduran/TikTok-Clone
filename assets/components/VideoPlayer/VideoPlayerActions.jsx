@@ -23,7 +23,7 @@ function VideoPlayerActions({username, avatar, likes=876, comments=567, shares=3
 
         <div className={styles.user}>
           <img alt={username} src={avatar}/>
-          <img src="https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/test-2e6dd40439e72f09a8193e27cb3e0c51.svg" width="24" class="jsx-1142506888"></img>
+          <img src="https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/test-2e6dd40439e72f09a8193e27cb3e0c51.svg" width="24"/>
         </div>
 
         <button onClick={handleLike} className={styles.action}>
